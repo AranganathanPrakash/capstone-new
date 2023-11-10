@@ -3,7 +3,8 @@
 # Check the Git branch
 if [[ $GIT_BRANCH == "origin/dev" ]]; then
     # Build your project
-    ./build.sh
+    sh'chmod +x build.sh'
+    sh'./build.sh'
 
     # Log in to Docker Hub (replace with your actual Docker Hub credentials)
     docker login -u vennilavan -p dckr_pat_S24xwX_73dmdhHpTqKr-3UVNqds
@@ -17,7 +18,8 @@ if [[ $GIT_BRANCH == "origin/dev" ]]; then
 
 elif [[ $GIT_BRANCH == "origin/main" ]]; then
     # Build your project
-    ./build.sh
+    sh'chmod +x build.sh'
+    sh'./build.sh'
 
     # Log in to Docker Hub (replace with your actual Docker Hub credentials)
     docker login -u vennilavan -p dckr_pat_S24xwX_73dmdhHpTqKr-3UVNqds
