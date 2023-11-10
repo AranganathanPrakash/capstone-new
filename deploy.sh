@@ -6,7 +6,7 @@ if [[ $GIT_BRANCH == "origin/dev" ]]; then
     ./build.sh
 
     # Log in to Docker Hub (replace with your actual Docker Hub credentials)
-    docker login -u vennilavan -p dckr_pat_VPY-9NwBDEwI0PpfGcF3l8ujH28
+    docker login -u vennilavan -p dckr_pat_S24xwX_73dmdhHpTqKr-3UVNqds
 
   
     # Tag the image
@@ -20,7 +20,7 @@ elif [[ $GIT_BRANCH == "origin/main" ]]; then
     ./build.sh
 
     # Log in to Docker Hub (replace with your actual Docker Hub credentials)
-    docker login -u sayeda77 -p dckr_pat_VPY-9NwBDEwI0PpfGcF3l8ujH28
+    docker login -u sayeda77 -p dckr_pat_S24xwX_73dmdhHpTqKr-3UVNqds
 
    
     # Tag the image
