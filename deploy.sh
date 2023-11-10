@@ -10,7 +10,7 @@ if [[ $GIT_BRANCH == "origin/dev" ]]; then
 
   
     # Tag the image
-    docker tag react-appimg sayeda77/dev
+    docker tag react-nginx vennilavan/dev
 
     # Push the image to the Dev Docker Hub repository
     docker push vennilavan/dev
@@ -24,7 +24,7 @@ elif [[ $GIT_BRANCH == "origin/main" ]]; then
 
    
     # Tag the image
-    docker tag react-appimg vennilavan/prod 
+    docker tag react-nginx vennilavan/prod 
 
     # Push the image to the Prod Docker Hub repository
     docker push vennilavan/prod
