@@ -20,7 +20,7 @@ elif [[ $GIT_BRANCH == "origin/main" ]]; then
     ./build.sh
 
     # Log in to Docker Hub (replace with your actual Docker Hub credentials)
-    docker login -u sayeda77 -p dckr_pat_S24xwX_73dmdhHpTqKr-3UVNqds
+    docker login -u vennilavan -p dckr_pat_S24xwX_73dmdhHpTqKr-3UVNqds
 
    
     # Tag the image
@@ -28,6 +28,4 @@ elif [[ $GIT_BRANCH == "origin/main" ]]; then
 
     # Push the image to the Prod Docker Hub repository
     docker push vennilavan/prod
-else
-    echo "Deployment error"
 fi
