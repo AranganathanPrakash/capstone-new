@@ -5,7 +5,7 @@ if [[ $GIT_BRANCH == "origin/dev" ]]; then
     # Build your project
     sh'chmod +x build.sh'
     sh'./build.sh'
-
+j
     # Log in to Docker Hub (replace with your actual Docker Hub credentials)
     docker login -u preethivinil -p dckr_pat_S24xwX_73dmdhHpTqKr-3UVNqds
 
