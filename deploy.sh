@@ -22,7 +22,7 @@ elif [[ $GIT_BRANCH == "origin/main" ]]; then
     sh'./build.sh'
 
     # Log in to Docker Hub (replace with your actual Docker Hub credentials)
-    docker login -u vennilavan -p dckr_pat_S24xwX_73dmdhHpTqKr-3UVNqds
+    docker login -u preethi -p dckr_pat_S24xwX_73dmdhHpTqKr-3UVNqds
 
    
     # Tag the image
